@@ -2,7 +2,7 @@
 import React from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { formRegisterSchema, TFormLoginValues, TFormRegisterValues } from './modals/auth-modal/forms/schemas';
+import { formRegisterSchema, TFormRegisterValues } from './modals/auth-modal/forms/schemas';
 import { User } from '@prisma/client';
 import toast from 'react-hot-toast';
 import { signOut } from 'next-auth/react';
